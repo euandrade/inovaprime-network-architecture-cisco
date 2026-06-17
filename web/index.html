@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>InovaPrime Corp</title>
+    <style>
+        /* Reset de estilos padrão */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estrutura principal em Modo Escuro Elegante */
+        body {
+            background-color: #17171a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: space-between;
+        }
+
+        /* Cabeçalho superior direito (Estilo Google Apps) */
+        header {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px 30px;
+        }
+
+        header a {
+            color: #9aa0a6;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        header a:hover {
+            color: #00adb5;
+            text-decoration: underline;
+        }
+
+        /* Área Central */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        /* Nome da Empresa Centralizado */
+        .logo {
+            font-size: 64px;
+            font-weight: bold;
+            color: #00adb5;
+            margin-bottom: 30px;
+            letter-spacing: -1px;
+        }
+
+        /* Barra de pesquisa fictícia */
+        .search-box {
+            width: 100%;
+            max-width: 580px;
+            margin-bottom: 25px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 14px 20px;
+            border-radius: 24px;
+            border: 1px solid #3c4043;
+            background-color: #202124;
+            color: #ffffff;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .search-box input:focus {
+            background-color: #303134;
+            border-color: #00adb5;
+        }
+
+        /* Botões centrais */
+        .buttons {
+            display: flex;
+            gap: 12px;
+        }
+
+        .btn {
+            padding: 10px 18px;
+            background-color: #303134;
+            border: 1px solid #303134;
+            color: #e8eaed;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            border-color: #5f6368;
+            color: #ffffff;
+        }
+
+        /* Rodapé corporativo */
+        footer {
+            width: 100%;
+            background-color: #101012;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #212124;
+            color: #70757a;
+            font-size: 13px;
+        }
+
+        footer .links a {
+            color: #70757a;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        footer .links a:hover {
+            color: #00adb5;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#">Intranet</a>
+        <a href="#">Webmail</a>
+        <a href="#">Portal TI</a>
+    </header>
+
+    <main>
+        <div class="logo">InovaPrime Corp</div>
+        
+        <div class="search-box">
+            <input type="text" placeholder="Pesquisar na rede interna corporativa...">
+        </div>
+        
+        <div class="buttons">
+            <button class="btn">Pesquisa Inova</button>
+            <button class="btn">Estou com Sorte</button>
+        </div>
+    </main>
+
+    <footer>
+        <div>Sede Primária - Brasil</div>
+        <div class="links">
+            <a href="#">Segurança</a>
+            <a href="#">Suporte</a>
+            <a href="#">Termos</a>
+        </div>
+    </footer>
+
+</body>
+</html>
