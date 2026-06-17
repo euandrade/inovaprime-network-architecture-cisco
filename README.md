@@ -251,7 +251,7 @@ O comando `ip helper-address` converte o broadcast do cliente em um pacote unica
 
 Este projeto consolidou na prática conceitos fundamentais de redes: VLANs, VLSM, roteamento inter-VLAN e serviços de infraestrutura. Durante a implementação, foi identificado um erro de alinhamento nos blocos de sub-rede (blocos que não respeitavam os múltiplos corretos de 8/16 endereços), o que impedia o funcionamento correto do DHCP dinâmico. A correção desse problema, com apoio de revisão técnica por IA, reforçou o entendimento sobre VLSM e overlapping de blocos.
 
-O projeto também evidenciou a importância de uma documentação de rede precisa e organizada — não apenas para a montagem inicial, mas como base para manutenção e expansão futura da infraestrutura.
+O projeto também evidenciou a importância de uma documentação de rede precisa e organizada, não apenas para a montagem inicial, mas como base para manutenção e expansão futura da infraestrutura.
 
 ---
 
