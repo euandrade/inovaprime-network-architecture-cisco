@@ -23,7 +23,7 @@ Projeto de infraestrutura de rede simulando a expansão da sede de uma empresa f
 
 A empresa fictícia **InovaPrime Corp** está expandindo sua sede corporativa e precisa de um analista de infraestrutura para projetar e homologar a nova rede local (LAN). O projeto exige total isolamento de tráfego entre os setores, gerência centralizada e comunicação controlada através de um roteador corporativo.
 
-**Estrutura física:** 4 departamentos (Engenharia, Compras, T.I. Interno, Infraestrutura), cada um com switch dedicado e 2 VLANs (Colaboradores e Serviços do Setor).
+**Estrutura física:** 4 departamentos (Engenharia, Compras, TI. Interno, Infraestrutura), cada um com switch dedicado e 2 VLANs (Colaboradores e Serviços do Setor).
 
 **Distribuição de hosts por departamento:**
 
