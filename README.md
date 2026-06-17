@@ -2,7 +2,7 @@
 
 Projeto de infraestrutura de rede simulando a expansão da sede de uma empresa fictícia (InovaPrime Corp), aplicando segmentação por VLANs, VLSM, roteamento inter-VLAN (Router-on-a-Stick) e serviços de rede (DHCP, DNS e Web).
 
-> Desafio proposto por uma IA como exercício prático após a conclusão dos cursos de Fundamentos de Redes e Cisco Packet Tracer (HRBR).
+> Desafio proposto por uma IA como exercício prático após a conclusão dos cursos de Fundamentos de Redes e Cisco Packet Tracer.
 
 ## Sumário
 
