@@ -31,11 +31,11 @@ A empresa fictícia **InovaPrime Corp** está expandindo sua sede corporativa e 
 |---|---|---|
 | Engenharia | 10 estações | 1 impressora + 1 servidor de arquivos |
 | Compras | 10 estações | 1 impressora + 1 servidor de pedidos |
-| T.I. Interno | 10 estações | 1 impressora + 1 servidor de monitoramento |
+| TI. Interno | 10 estações | 1 impressora + 1 servidor de monitoramento |
 | Infraestrutura | 10 estações | 1 impressora + 1 servidor de backup |
 
 **Regras de endereçamento:**
-- Engenharia e T.I. Interno: IP estático em todos os dispositivos.
+- Engenharia e TI. Interno: IP estático em todos os dispositivos.
 - Compras e Infraestrutura: IP dinâmico (DHCP) nas estações; servidores e impressoras com IP estático.
 - Servidor Web e DNS corporativo centralizado em VLAN exclusiva, acessível por todos os setores via `http://inovaprime.corp`.
 
@@ -67,7 +67,7 @@ Bloco privado de Classe C utilizado: `192.168.0.0/24`.
 | 192.168.0.16 | 192.168.0.31 | /28 | 255.255.255.240 | .17 a .30 | 192.168.0.17 | Dinâmico | (A) 300 |
 | 192.168.0.72 | 192.168.0.79 | /29 | 255.255.255.248 | .73 a .78 | 192.168.0.73 | Estático | (B) 400 |
 
-### Setor T.I. Interno
+### Setor TI. Interno
 
 | Rede | Broadcast | CIDR | Máscara | Faixa de Hosts | Gateway | DHCP | VLAN |
 |---|---|---|---|---|---|---|---|
